@@ -11,9 +11,6 @@
     ".": "./lib/index.js"
   },
   "sideEffects": false,
-  "scripts": {
-    "test": "mocha test/*.test.js"
-  },
   "dependencies": {
     "@bablr/agast-helpers": "0.11.4",
     "@bablr/agast-vm-helpers": "0.11.4",
@@ -29,8 +26,6 @@
     "eslint": "^8.32.0",
     "eslint-import-resolver-enhanced-resolve": "^1.0.5",
     "eslint-plugin-import": "^2.27.5",
-    "expect": "^29.7.0",
-    "mocha": "^10.8.2",
     "prettier": "^2.6.2"
   },
   "repository": "github:bablr-lang/bedazzlr",
